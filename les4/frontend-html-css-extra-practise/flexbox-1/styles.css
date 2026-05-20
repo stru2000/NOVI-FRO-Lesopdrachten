@@ -1,0 +1,61 @@
+/*Base styles*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(35, 40%, 91%);
+    color: hsl(25, 22%, 56%);
+    font-family: Avenir, Arial, sans-serif;
+
+}
+
+.container {
+    background-color: hsl(35, 40%, 95%);
+    border-radius: 4px;
+    border: 1px dashed red;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1200px;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+#aside {
+    align-self: stretch;
+    /*flex-basis: 300px;*/
+    flex: 0 0 300px;
+}
+
+#main{
+    align-self: stretch;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.item {
+    background-color: hsl(35, 40%, 98%);
+    border: 1px solid hsl(35, 40%, 78%);
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px hsl(35, 40%, 78%);
+    padding: 20px;
+}
+
+@media screen and (max-width: 576px){
+    .container {
+        /*flex-direction: column;*/
+        flex-wrap: wrap;
+    }
+    #aside {
+        flex-grow: 1;
+        flex-shrink: 1;
+        align-self: stretch;
+
+    }
+
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;700&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    color-scheme: dark;
+    color: black;
+}
+
+.product {
+    /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
+    margin: 80px auto;
+    /* Dit element heeft een vaste breedte van 350 pixels */
+    width: 350px;
+}
+
+/* - Vul dit document aan met jouw eigen css! - */
+
+.product-container{
+    position: relative;
+    display: inline-block;
+
+}
+
+.product-new{
+    display: inline-block;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 55px;
+    left: -62px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #DE6127;
+    background-color: #e8e8e8;
+    padding: 13px 24px;
+
+
+}
+.product-img{
+    width: 100%;
+}
+
+.product-img-favorite{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    height: 15px;
+}
+
+.product-title{
+    color: #737373;
+    font-size: 14px;
+}
+
+.color-dot1,.color-dot2,.color-dot3,.color-dot4 {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.color-dot1{
+    background-color: #faa0c7;
+}
+.color-dot2 {
+    background-color: #272729;
+}
+.color-dot3 {
+    background-color: #272729;
+}
+.color-dot4 {
+    background-color: #c2c2b4;
+}
+

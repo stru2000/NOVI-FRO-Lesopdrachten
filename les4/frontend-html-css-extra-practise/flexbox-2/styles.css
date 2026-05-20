@@ -1,0 +1,95 @@
+/*/////////////GLOBAL///////////////*/
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-color: hsl(196, 64%, 37%);
+    --background-color: hsl(40, 88%, 97%);
+    --item-color: hsl(211, 65%, 14%);
+}
+
+/*/////////////TYPOGRAPHY///////////////*/
+
+body {
+    color: var(--font-color);
+    background-color: var(--background-color) ;
+    font-size: 16px;
+}
+
+article {
+    background-color: var(--item-color);
+}
+
+/*/////////////AREAS///////////////*/
+
+.outer-container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px dashed red;
+}
+
+.inner-container {
+    border: 2px dashed purple;
+    width: 100%;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+h1,h3,p{
+    text-align: center;
+    padding: 1rem;
+    border: 2px dashed yellow;
+}
+
+.article-container{
+    border: 2px dashed green;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+article{
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+/*/////////////Media///////////////*/
+@media screen and (min-width: 768px) {
+    .article-container {
+        flex-direction: row;
+        padding: 2rem 0;
+    }
+    article {
+        width: 215px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .outer-container{
+        width: 1200px;
+    }
+    .article-container {
+        width: 100%;
+    }
+    article {
+        flex-basis: 215px;
+        flex-grow: 1;
+    }
+
+}

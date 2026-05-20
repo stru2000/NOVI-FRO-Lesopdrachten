@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/les2/frontend-css-frambozen-artikel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/les2/frontend-css-pet-badge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/les2/frontend-css-positioneren" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/les2/frontend-css-selectors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/les3/frontend-css-simple-flexbox" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/les4/frontend-html-css-extra-practise" vcs="Git" />
+  </component>
+</project>

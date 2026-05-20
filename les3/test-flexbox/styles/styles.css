@@ -1,0 +1,21 @@
+
+article {
+    background-color: #ededed;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+div {
+    background-color: grey;
+    border-radius: 4px;
+    border: 1px solid black;
+    height: 600px;
+
+    /*FLEXBOX PROPERTIES OM MEE TE SPELEN*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
